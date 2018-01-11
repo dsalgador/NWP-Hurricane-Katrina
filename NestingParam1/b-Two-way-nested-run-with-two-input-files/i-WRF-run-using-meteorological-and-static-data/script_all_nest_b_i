@@ -72,3 +72,4 @@ while (t <= 17)
   'clear'
   t = t + 1
 endwhile
+'clear'

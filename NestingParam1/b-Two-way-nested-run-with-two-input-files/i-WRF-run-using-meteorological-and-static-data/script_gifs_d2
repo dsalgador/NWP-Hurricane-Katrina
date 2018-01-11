@@ -1,0 +1,11 @@
+#!/bin/bash
+simname="NestBid2"
+vars=("pressure" "temperature" "vorticity" "windmod" "winddir")
+VARS=("Pressure" "Temperature" "Vorticity" "windmod" "winddir")
+iters=(0 1 2 3 4)
+for i in "${iters[@]}"
+do  
+    var=${vars[i]}
+    VAR=${VARS[i]}
+	convert -delay 20 -loop 0 $var/"$simname$VAR"* gifs/"$simname$var".gif
+done

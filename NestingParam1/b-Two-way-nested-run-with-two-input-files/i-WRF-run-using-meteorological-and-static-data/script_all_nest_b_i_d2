@@ -1,0 +1,75 @@
+'open test2.ctl'
+'set dbuff on'
+t = 1
+'set gxout shaded'
+'clear'
+while (t <= 17)
+  'set t 't
+  'draw title Pressure (hPa)'
+  'd pressure'  
+  'cbar'
+  'swap'
+  'printim pressure/NestBid2Pressure't'.png png'
+  'clear'
+  t = t + 1
+endwhile
+
+
+t = 1
+'set gxout shaded'
+'clear'
+while (t <= 17)
+  'set t 't
+  'draw title Perturbation potential temperature (theta-t0) (K)'
+  'd T'  
+  'cbar'
+  'swap'
+  'printim temperature/NestBid2Temperature't'.png png'
+  'clear'
+  t = t + 1
+endwhile
+
+t = 1
+'set gxout shaded'
+'set csmooth on'
+'clear'
+while (t <= 17)
+  'set t 't
+  'draw title Vorticity'
+  'd hcurl(u,v)'  
+  'cbar'
+  'swap'
+  'printim vorticity/NestBid2Vorticity't'.png png'
+  'clear'
+  t = t + 1
+endwhile
+
+t = 1
+'set gxout shaded'
+'set csmooth on'
+'clear'
+while (t <= 17)
+  'set t 't
+  'draw title Wind modulus (m/s)'
+  'd mag(u,v)'  
+  'cbar'
+  'swap'
+  'printim windmod/NestBid2windmod't'.png png'
+  'clear'
+  t = t + 1
+endwhile
+
+t = 1
+'set gxout shaded'
+'set csmooth on'
+'clear'
+while (t <= 17)
+  'set t 't
+  'draw title Wind direction'
+  'd u;v'  
+  'swap'
+  'printim winddir/NestBid2winddir't'.png png'
+  'clear'
+  t = t + 1
+endwhile
+'clear'
