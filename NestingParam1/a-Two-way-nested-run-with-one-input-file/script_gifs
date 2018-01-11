@@ -1,0 +1,8 @@
+#!/bin/bash
+simname="NestA"
+vars=("pressure" "temperature" "vorticity" "windmod" "winddir")
+
+for var in "${vars[@]}"
+do
+	convert -delay 20 -loop 0 $var/*.png $var/"$simname$var".gif
+done
