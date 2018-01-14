@@ -7,6 +7,16 @@ Authors:
 
 ## Abstract
 
+The weather research and forecasting (WRF) is a numerical weather prediction (NWP) system
+designed to serve both atmospheric research and operational forecasting needs. In this
+project, the results of simulating the Katrina Hurricane event with real data are shown. Different
+options for parametrizing the problem and for doing multiple domain simulations are
+discussed and compared. We use 5 meteorological magnitudes to study the hurricane: Potential
+temperature, pressure and wind’s direction, modulus and vorticity. The veracity of the results
+of the simulation is checked comparing in a qualitative way the real trajectory of the hurricane
+with the predicted ones. The time evolution of the previously named magnitudes is represented
+in gif format, where we appreciate that both the predicted and the real trajectories are
+very similar.
 
 ## References
 
