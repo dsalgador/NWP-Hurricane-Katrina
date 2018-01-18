@@ -28,3 +28,7 @@ January 9, 2018, from https://en.wikipedia.org/w/index.php?title=Hurricane_Katri
 oldid=816476781
 * [4] NWS Jackson,MS, August 2005 Hurricane Katrina Outbreak, https://www.weather.gov/jan/
 2005_08_29_hurricane_katrina_outbreak
+
+## License
+This work, both the report in pdf format and the scripts, are for an INDIVIDUAL delivery from the Master's in Modelling for Science and Engineering from the UAB, 2017/2018. So they must not be copied by students from the Master's that are not the authors of this repository.
+Anyway, we declare that all the work has been done by the authors of this repository. We remark that the technical stuff has been made mainly by following the tutorial from reference [2].
